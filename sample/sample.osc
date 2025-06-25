@@ -1,0 +1,19 @@
+class HelloWorld {
+    static void main() {
+        System.print("Hello from OSCSDK!");
+        int x = 5;
+        int y = 10;
+        int z = Math.add(x, y);
+        System.print("5 + 10 = " + z);
+
+        int i = 0;
+        while (i < 3) {
+            System.print("i = " + i);
+            i = i + 1;
+        }
+
+        for (int j = 0; j < 2; j = j + 1) {
+            System.print("j = " + j);
+        }
+    }
+}
